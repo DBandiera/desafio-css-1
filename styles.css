@@ -1,0 +1,134 @@
+* {
+    font-family: 'Poppins', sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/*body {
+    height: 100vh;
+    width: 100vw;
+}*/
+
+header {
+    margin: 50px 30px 144px 110px;
+}
+
+header a {
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 21px;
+    color: #17233d;
+    cursor: pointer;
+    margin-right: 23px;
+    text-decoration: none;
+}
+
+header button {
+    background: #6FBF44;
+    width: 124px;
+    height: 51px;
+    border: 1px;
+    border-color: #4CB538;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+
+.img-main {
+    width: 534px;
+    height: 467px;
+    margin-top: 246px;
+    margin-left: 182.18px;
+    display: inline-block;
+}
+
+section {
+    display: inline-block;
+    margin-left: 86px;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 62px;
+    line-height: 82px;
+    color: #161A49;
+}
+
+p {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 33px;
+    color: #4b505a;
+    width: 493px;
+    margin-top: 32px;
+    margin-bottom: 65px;
+}
+
+section a {
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 29px;
+    color: #6fbf44;
+    cursor: pointer;
+    margin-right: 27px;
+    text-decoration: none;
+}
+
+@media screen and (max-width: 900px) {
+
+    header a {
+        display: none;
+    }
+
+    button {
+        width: 91px;
+        height: 31px;
+        font-size: 12px;
+        margin: 17px 15px 0 420px;
+        font-weight: 400;
+    }
+
+    main {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    section {
+        margin: auto 0 0 100px;
+    }
+
+    h1 {
+        width: 320px;
+        font-size: 30px;
+        text-align: center;
+        line-height: 30px;
+        margin-top: 76px;
+        margin-left: 50px;
+    }
+
+    p {
+        width: 404px;
+        margin: 20px 0;
+        text-align: center;
+    }
+
+    section a {
+        margin-left: 135px;
+    }
+
+    header {
+        margin: 0;
+    }
+
+    .img-main {
+        width: 312px;
+        height: 268px;
+        margin: 0 auto;
+        margin-top: 74px;
+        margin-right: 250px;
+        padding: 3px;
+    }
+
+}
